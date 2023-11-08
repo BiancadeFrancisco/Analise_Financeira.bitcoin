@@ -51,7 +51,7 @@ Foi possível observar que os valores da média e mediana estavam próximos, evi
 
 6° Com a função .Rolling, foi possível estabelecer uma média móvel para anexar aos gráficos.
 
-A função rolling() é uma função do pandas que permite calcular estatísticas em janelas deslizantes de dados. Ela é muito útil para calcular médias móveis, desvios padrão, somatórios, mínimos e máximos, entre outras estatísticas.
+- A função rolling() é uma função do pandas que permite calcular estatísticas em janelas deslizantes de dados. Ela é muito útil para calcular médias móveis, desvios padrão, somatórios, mínimos e máximos, entre outras estatísticas.
 
 
 7° Plotado gráfico um pouco mais robusto, incluindo média móvel em um período de 5 e 30 dias;
@@ -59,12 +59,12 @@ A função rolling() é uma função do pandas que permite calcular estatística
 
 8° Utilizando plotly.express, foi possível criar um gráfico de linhas, com visualização interativa, utilizando apenas uma linha de comando.
 
-•       plotly.express (px) é uma maneira rápida e fácil de criar visualizações dinâmicas de dados.
+plotly.express (px) é uma maneira rápida e fácil de criar visualizações dinâmicas de dados.
 
 
-9° Utilizando plotly.graph_objects, foi possível criar um gráfico de linhas, com visualização interativa também, e podendo aplicar mais detalhes ,  utilizando algumas linhas de comando.
+9° Utilizando plotly.graph_objects, foi possível criar um gráfico de linhas, com visualização interativa também, e podendo aplicar mais detalhes,  utilizando algumas linhas de comando.
 
-•	plotly.graph_objects (go) é a API de nível inferior que concede mais controle sobre suas visualizações, mas é mais intensiva em código.
+- plotly.graph_objects (go) é a API de nível inferior que concede mais controle sobre suas visualizações, mas é mais intensiva em código.
 
 
 10° Utilizando plotly.express com update de axes e layout foi possível plotar um gráfico de área preenchido mais completo, com botões para filtrar períodos de análise dos dados;
@@ -72,7 +72,7 @@ A função rolling() é uma função do pandas que permite calcular estatística
 
 11° Utilizando plotly.graph_objects, plotou-se um gráfico conhecido como Candlestick e, aplicando um update foi possível incrementar e personalizar seu layout.
 
-•	Candlestick Charts: É um estilo de gráfico financeiro que descreve abertura, alta, baixa e fechamento para uma determinada xcoordenada (tempo mais provável). As caixas representam a dispersão entre os valores opene closee as linhas representam a dispersão entre os valores lowe high. Pontos de amostragem onde o valor de fechamento é maior (inferior) do que o valor de abertura são chamados de crescentes (decrescentes). Por padrão, as velas crescentes são desenhadas em verde, enquanto as decrescentes são desenhadas em vermelho.
+- Candlestick Charts: É um estilo de gráfico financeiro que descreve abertura, alta, baixa e fechamento para uma determinada xcoordenada (tempo mais provável). As caixas representam a dispersão entre os valores opene closee as linhas representam a dispersão entre os valores lowe high. Pontos de amostragem onde o valor de fechamento é maior (inferior) do que o valor de abertura são chamados de crescentes (decrescentes). Por padrão, as velas crescentes são desenhadas em verde, enquanto as decrescentes são desenhadas em vermelho.
 
 
 12° Construiu-se um relatório personalizado com dois gráficos para análise gerencial;
@@ -80,4 +80,4 @@ A função rolling() é uma função do pandas que permite calcular estatística
 
 13° Utilizando a biblioteca Kaleido, foi possível exportar o relatório em formato PDF. 
 
-•	Kaleido é uma biblioteca de plataforma cruzada para geração de imagens estáticas (por exemplo, png, svg, pdf, etc.) para bibliotecas de visualização baseadas na web, com foco particular na eliminação de dependências externas. O foco inicial do projeto é a exportação de imagens plotly.js do Python para uso por plotly.py, mas ele foi projetado para ser relativamente direto para estender a outras bibliotecas de visualização baseadas na web e outras linguagens de programação. O foco principal do Kaleido (pelo menos inicialmente) é servir como uma dependência de bibliotecas de visualização baseadas na web, como plotly.py. Como tal, o foco está em fornecer uma API programática, em vez de amigável ao usuário.
+- Kaleido é uma biblioteca de plataforma cruzada para geração de imagens estáticas (por exemplo, png, svg, pdf, etc.) para bibliotecas de visualização baseadas na web, com foco particular na eliminação de dependências externas. O foco inicial do projeto é a exportação de imagens plotly.js do Python para uso por plotly.py, mas ele foi projetado para ser relativamente direto para estender a outras bibliotecas de visualização baseadas na web e outras linguagens de programação. O foco principal do Kaleido (pelo menos inicialmente) é servir como uma dependência de bibliotecas de visualização baseadas na web, como plotly.py. Como tal, o foco está em fornecer uma API programática, em vez de amigável ao usuário.
