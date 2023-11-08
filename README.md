@@ -19,11 +19,16 @@
 **Principais bibliotecas utilizadas:**
 
 •	Pandas, para manipulação, modelagem e tratamento dos dados; 
+
 •	Numpy, para realizar cálculos numéricos; 
+
 •	Matplotlib, para criação e visualização de gráficos;
+
 •	Seaborn, para criação e visualização de gráficos;
+
 •	Plotly, para criação e visualização de gráficos interativos;
-•	Datetime, para manipulação com datas;
+
+•	Datetime, para manipulação com datas.
 
 
 **Sequência de processos:**
