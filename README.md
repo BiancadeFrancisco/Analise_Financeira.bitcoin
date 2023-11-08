@@ -59,7 +59,7 @@ Foi possível observar que os valores da média e mediana estavam próximos, evi
 
 8° Utilizando plotly.express, foi possível criar um gráfico de linhas, com visualização interativa, utilizando apenas uma linha de comando.
 
-plotly.express (px) é uma maneira rápida e fácil de criar visualizações dinâmicas de dados.
+- plotly.express (px) é uma maneira rápida e fácil de criar visualizações dinâmicas de dados.
 
 
 9° Utilizando plotly.graph_objects, foi possível criar um gráfico de linhas, com visualização interativa também, e podendo aplicar mais detalhes,  utilizando algumas linhas de comando.
